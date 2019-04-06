@@ -3,9 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import "./registerServiceWorker";
 import axios from 'axios'
-import VueAxios from 'vue-axios'
  
-Vue.use(VueAxios, axios);
+Vue.use(axios);
 
 Vue.config.productionTip = false;
 
